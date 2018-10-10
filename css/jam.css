@@ -1,5 +1,5 @@
 body {
-  background-color: #3baa9a;
+  background-color: #008CC1;
   font-family: Montserrat Light;
   color: #FFF;
 }
@@ -16,6 +16,26 @@ body {
   width: 720px;
 }
 
+.splash-row {
+  display: block;
+  margin: 20px auto;
+  width: 1000px;
+  text-align: center;
+}
+
+.splash-column {
+  display: inline-block;
+  width: 310px;
+  margin: 10px;
+  text-align: center;
+}
+
+.splash-column p {
+  font-size: 0.8rem;
+  font-weight: light;
+  margin: 0px;
+}
+
 footer {
   display: block;
   margin: 40px auto;
@@ -27,4 +47,24 @@ footer {
 
 a {
   color: #F7B733;
+}
+
+#get-button {
+  margin: 8px;
+  border: 2px solid #FFF;
+  padding: 6px;
+  font-weight: bold;
+  font-size: 1.25rem;
+  color: #FFF;
+  border-radius: 3px;
+  display: block;
+  width: 100px;
+  text-align: center;
+  margin: 0 auto;
+  text-decoration: none;
+  background-color: #008CC1;
+}
+
+#get-button:hover {
+  cursor: pointer;
 }
