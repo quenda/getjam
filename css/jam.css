@@ -1,0 +1,17 @@
+body {
+  background-color: #3baa9a;
+  font-family: Montserrat Light;
+  color: #FFF;
+}
+
+#logo-splash {
+  display: block;
+  margin: 40px auto;
+}
+
+.bread-center {
+  display: block;
+  margin: 10px auto;
+  text-align: center;
+  width: 720px;
+}
